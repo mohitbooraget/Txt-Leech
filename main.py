@@ -27,9 +27,9 @@ import re
 import os
 import io
 
-API_ID = 22170620
-API_HASH = "8c15defa8633511dd14b19b5770cb9e8"
-BOT_TOKEN = "7146439451:AAHWUl57EYfvc1GpSuSjoiohxl15JW2zxtY"
+API_ID = 24147139
+API_HASH = "17f525f59de52108805a65f5ffd909e4"
+BOT_TOKEN = "6939155705:AAGrrUjiqHkj9PP9XaFBS0exzHKOrWrdlwE"
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
@@ -106,7 +106,7 @@ async def account_login(bot: Client, m: Message):
     raw_text0 = input0.text 
 
     editable4 = await m.reply_text(
-        "Now send the **Thumb url**\nEg : ```https://telegra.ph/file/d9e24878bd4aba05049a1.jpg```\n\nor Send **no**"
+        "Now send the **Thumb url**\nEg : ```https://graph.org/file/45f562dc05b2874c7277e.jpg```\n\nor Send **no**"
     )
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
